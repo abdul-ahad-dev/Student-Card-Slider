@@ -25,7 +25,8 @@ export default function Home() {
         const student = studentData.filter((data) => {
             console.log(i, "====>", data);
             if (data.name.toLocaleLowerCase() == field.toLocaleLowerCase() || data.id == field) {
-                setNo(i)
+                setNo(i);
+                return true;
             }
             i++
         })
@@ -42,9 +43,9 @@ export default function Home() {
     }
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen bg-gradient-to-r from-[#ECE9E6] to-[#FFFFFF] py-14">
 
-            <div className="w-full my-10 flex justify-center gap-5" >
+            <div className="w-full flex justify-center gap-5" >
                 <input
                     type="text"
                     onChange={e => setFeild(e.target.value)}
@@ -64,14 +65,14 @@ export default function Home() {
                 <button className="btn btn-primary bg-blue-500 text-white font-semibold uppercase py-2 px-5 rounded-xl border-2 border-blue-900 active:scale-110" onClick={handlePrev}>Prev</button>
 
                 <div ref={cardRef}>
-                <Card
-                    src={studentData[no].picture}
-                    name={studentData[no].name}
-                    id={studentData[no].id}
-                    role={studentData[no].role}
-                    email={studentData[no].email}
+                    <Card
+                        src={studentData[no].picture}
+                        name={studentData[no].name}
+                        id={studentData[no].id}
+                        role={studentData[no].role}
+                        email={studentData[no].email}
                     />
-                    </div>
+                </div>
 
                 <button className="btn btn-primary bg-blue-500 text-white font-semibold uppercase py-2 px-5 rounded-xl border-2 border-blue-900 active:scale-110" onClick={handleNext}>Next</button>
 
