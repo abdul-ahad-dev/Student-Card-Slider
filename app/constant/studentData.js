@@ -1,5 +1,12 @@
 const students = [
     {
+        name: "Abdul Ahad",
+        id: "214770",
+        role: "Web & App Development",
+        email: "abdulahad@gmail.com",
+        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726677969/studentData/g3ve0u3avgj6nve7dcnm.jpg"
+    },
+    {
         name: "John Doe",
         id: "S123456",
         role: "Web Development Student",
