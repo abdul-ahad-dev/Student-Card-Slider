@@ -4,12 +4,16 @@ import Image from "next/image";
 export default function Home({ src, id, name, role, email }) {
     return (
         <div className="w-[300px] h-[500px] bg-blue-50 shadow-lg rounded-lg overflow-hidden">
-            <div className="w-[300px] h-[150px] p-6 text-center">
-                <h1 className="text-6xl font-bold italic text-blue-500">SMIT</h1>
-                <p className="text-gray-500 font-thin">Saylani Mass IT Training</p>
+            <div>
+                <Image
+                    src="https://res.cloudinary.com/dvokuaohw/image/upload/v1726763405/studentData/j1evlnbmphsrd2pzqjwf.png"
+                    alt="Cover Image"
+                    width={300} height={100}
+                    className="object-cover px-6 pt-8"
+                />
             </div>
 
-            <div className="flex flex-col items-center p-8">
+            <div className="flex flex-col items-center p-6">
                 <div className="w-[130px] h-[130px] rounded-full overflow-hidden border-4 border-blue-500">
                     <Image
                         src={src}

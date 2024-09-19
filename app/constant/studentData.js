@@ -7,110 +7,54 @@ const students = [
         picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726677969/studentData/g3ve0u3avgj6nve7dcnm.jpg"
     },
     {
-        name: "John Doe",
-        id: "S123456",
-        role: "Web Development Student",
-        email: "john.doe@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691193/studentData/yn1cmnn4sbjr2yjtj69g.jpg"
+        name: "Shazaib Khan",
+        id: "214671",
+        role: "Web Development",
+        email: "shazaibkhan@gmail.com",
+        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726763862/studentData/k5rwhib1sgv7goih5nrl.jpg"
     },
     {
-        name: "Jane Smith",
-        id: "S234567",
-        role: "Data Science Student",
-        email: "jane.smith@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691469/studentData/ynddfkyrommhmbh3dkyw.jpg"
+        name: "Faizan",
+        id: "214654",
+        role: "Data Science",
+        email: "faizan@gmail.com",
+        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726763840/studentData/vevoxspkqxquqs7p3mfu.jpg"
     },
     {
-        name: "Robert Johnson",
-        id: "S345678",
+        name: "Adil Raees",
+        id: "214123",
         role: "AI Researcher",
-        email: "robert.johnson@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691193/studentData/yn1cmnn4sbjr2yjtj69g.jpg"
+        email: "adil@gmail.com",
+        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726763823/studentData/dvjfouke0ery0jbnvjjj.jpg"
     },
     {
-        name: "Emily Davis",
-        id: "S456789",
+        name: "Ghufran",
+        id: "214609",
         role: "Cybersecurity Specialist",
-        email: "emily.davis@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691193/studentData/yn1cmnn4sbjr2yjtj69g.jpg"
+        email: "ghufran@gmail.com",
+        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726763817/studentData/tjftvudeee7jqolikji7.jpg"
     },
     {
-        name: "Michael Brown",
-        id: "S567890",
+        name: "Muhammad Shakeeb",
+        id: "214616",
         role: "Cloud Computing Expert",
-        email: "michael.brown@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691469/studentData/ynddfkyrommhmbh3dkyw.jpg"
+        email: "muhammadshakeeb@gmail.com",
+        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726763815/studentData/p4g90glylvj39aq0my66.jpg"
     },
     {
-        name: "Sarah Wilson",
-        id: "S678901",
+        name: "Muhammad Talha",
+        id: "214612",
         role: "Full Stack Developer",
-        email: "sarah.wilson@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691193/studentData/yn1cmnn4sbjr2yjtj69g.jpg"
+        email: "muhammadtalha@gmail.com",
+        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726763815/studentData/smsrvgienjbi19yr5kew.jpg"
     },
     {
-        name: "David Moore",
-        id: "S789012",
+        name: "Muhammad Khan",
+        id: "2146121",
         role: "Blockchain Developer",
-        email: "david.moore@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691193/studentData/yn1cmnn4sbjr2yjtj69g.jpg"
+        email: "david.moore@gmail.com",
+        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726780691/studentData/ekrgwemricz7hw0qg563.jpg"
     },
-    {
-        name: "Jessica Taylor",
-        id: "S890123",
-        role: "UI/UX Designer",
-        email: "jessica.taylor@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691469/studentData/ynddfkyrommhmbh3dkyw.jpg"
-    },
-    {
-        name: "Daniel Anderson",
-        id: "S901234",
-        role: "Mobile App Developer",
-        email: "daniel.anderson@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691193/studentData/yn1cmnn4sbjr2yjtj69g.jpg"
-    },
-    {
-        name: "Laura Thomas",
-        id: "S012345",
-        role: "Database Administrator",
-        email: "laura.thomas@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691193/studentData/yn1cmnn4sbjr2yjtj69g.jpg"
-    },
-    {
-        name: "James Lee",
-        id: "S123456",
-        role: "Network Engineer",
-        email: "james.lee@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691193/studentData/yn1cmnn4sbjr2yjtj69g.jpg"
-    },
-    {
-        name: "Sophia Harris",
-        id: "S234567",
-        role: "Machine Learning Engineer",
-        email: "sophia.harris@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691193/studentData/yn1cmnn4sbjr2yjtj69g.jpg"
-    },
-    {
-        name: "Christopher Clark",
-        id: "S345678",
-        role: "Software Engineer",
-        email: "christopher.clark@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691193/studentData/yn1cmnn4sbjr2yjtj69g.jpg"
-    },
-    {
-        name: "Olivia Martinez",
-        id: "S456789",
-        role: "Frontend Developer",
-        email: "olivia.martinez@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691469/studentData/ynddfkyrommhmbh3dkyw.jpg"
-    },
-    {
-        name: "Liam Walker",
-        id: "S567890",
-        role: "DevOps Engineer",
-        email: "liam.walker@example.com",
-        picture: "https://res.cloudinary.com/dvokuaohw/image/upload/v1726691193/studentData/yn1cmnn4sbjr2yjtj69g.jpg"
-    }
 ];
 
 export default students
